@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Damilola Ayoola — Portfolio
 
-## Getting Started
+Next.js portfolio focused on software engineering, data, automation, and systems work.
 
-First, run the development server:
+## Structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- `src/app` — Next.js application shell, metadata, global styles, and page composition.
+- `src/components/layout` — shared navigation and section primitives.
+- `src/components/sections` — homepage sections.
+- `src/components/projects` — project-specific case-study presentations plus reusable project evidence UI.
+- `public/projects` — selected real screenshots from the working project builds.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project evidence
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The portfolio includes selected screenshots for:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Metamorphosis — active development
+- Football Talent Platform — working application
+- My Sports App — working prototype
 
-## Learn More
+Screenshots are presented as evidence of the interfaces already built, rather than as decorative mockups.
 
-To learn more about Next.js, take a look at the following resources:
+## Metamorphosis positioning
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Metamorphosis is presented as a broader document processing and audit workspace. PDF-to-Excel is one implemented workflow, alongside PDF utilities and an expanding conversion/data-processing architecture. Future conversion capabilities should only be labelled as available after they are implemented and tested.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Environment
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Use `.env.example` as the template for environment variables. The optional `NEXT_PUBLIC_METAMORPHOSIS_URL` variable controls the external project link when a deployed Metamorphosis instance is available.
