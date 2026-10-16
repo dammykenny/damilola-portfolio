@@ -9,11 +9,11 @@ export default function FootballTalentProject() {
       <div className="grid gap-8 lg:grid-cols-[0.25fr_0.75fr] lg:gap-12">
         {/* PROJECT NUMBER */}
         <div>
-          <p className="font-mono text-xs tracking-[0.2em] text-white/25">
+          <p className="font-mono text-xs tracking-[0.2em] text-white/50">
             03
           </p>
 
-          <p className="mt-3 text-[10px] uppercase tracking-[0.24em] text-[var(--accent)]">
+          <p className="mt-3 text-[11px] uppercase tracking-[0.24em] text-[var(--accent)]">
             Full-Stack · Sports Intelligence
           </p>
         </div>
@@ -27,7 +27,7 @@ export default function FootballTalentProject() {
                 Football Talent Platform
               </h3>
 
-              <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-white/25">
+              <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.18em] text-white/50">
                 Player discovery · Scouting · Data
               </p>
             </div>
@@ -35,40 +35,40 @@ export default function FootballTalentProject() {
             <Network
               size={19}
               strokeWidth={1.5}
-              className="mt-1 shrink-0 text-white/25 transition-colors duration-300 group-hover:text-[var(--accent)]"
+              className="mt-1 shrink-0 text-white/50 transition-colors duration-300 group-hover:text-[var(--accent)]"
             />
           </div>
 
           {/* INTRODUCTION */}
-          <p className="mt-5 max-w-2xl text-sm leading-7 text-white/50">
+          <p className="mt-5 max-w-2xl text-sm leading-7 text-white/65">
             A full-stack football scouting platform designed to make player
             discovery more structured and data-driven. The application brings
             player profiles, scouting information, authentication, media, and
             discovery workflows together in one system.
           </p>
 
-          <p className="mt-4 max-w-2xl text-sm leading-7 text-white/50">
+          <p className="mt-4 max-w-2xl text-sm leading-7 text-white/65">
             Rather than treating player information as isolated records, the
             platform connects structured player data with application
-            services, authentication, media processing, and discovery
+            services, authentication, video uploads, and discovery
             workflows to create a more complete scouting experience.
           </p>
 
           {/* CORE PIPELINE */}
           <div className="mt-8">
-            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/25">
+            <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/50">
               Core pipeline
             </p>
 
-            <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[11px] text-white/35">
+            <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[11px] text-white/50">
               <span>PLAYER DATA</span>
-              <span className="text-white/15">→</span>
+              <span className="text-white/50">→</span>
               <span>SERVICE LAYER</span>
-              <span className="text-white/15">→</span>
+              <span className="text-white/50">→</span>
               <span>AUTHENTICATION</span>
-              <span className="text-white/15">→</span>
+              <span className="text-white/50">→</span>
               <span>MEDIA</span>
-              <span className="text-white/15">→</span>
+              <span className="text-white/50">→</span>
               <span>DISCOVERY</span>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function FootballTalentProject() {
           <div className="mt-10">
             <div className="flex items-end justify-between gap-4">
               <div>
-                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/25">
+                <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/50">
                   Platform architecture
                 </p>
 
@@ -86,56 +86,56 @@ export default function FootballTalentProject() {
                 </h4>
               </div>
 
-              <p className="hidden font-mono text-[9px] uppercase tracking-[0.16em] text-white/20 sm:block">
+              <p className="hidden font-mono text-[10px] uppercase tracking-[0.16em] text-white/50 sm:block">
                 Sports Intelligence / 03
               </p>
             </div>
 
             <div className="mt-6 grid gap-3 sm:grid-cols-4">
               <div className="border border-white/10 bg-white/[0.02] p-4">
-                <p className="font-mono text-[9px] text-white/25">01</p>
+                <p className="font-mono text-[10px] text-white/50">01</p>
 
-                <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--accent)]">
+                <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]">
                   Data
                 </p>
 
-                <p className="mt-2 text-xs text-white/40">
+                <p className="mt-2 text-xs text-white/55">
                   Player profiles
                 </p>
               </div>
 
               <div className="border border-white/10 bg-white/[0.02] p-4">
-                <p className="font-mono text-[9px] text-white/25">02</p>
+                <p className="font-mono text-[10px] text-white/50">02</p>
 
-                <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--accent)]">
+                <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]">
                   Services
                 </p>
 
-                <p className="mt-2 text-xs text-white/40">
+                <p className="mt-2 text-xs text-white/55">
                   Application logic
                 </p>
               </div>
 
               <div className="border border-white/10 bg-white/[0.02] p-4">
-                <p className="font-mono text-[9px] text-white/25">03</p>
+                <p className="font-mono text-[10px] text-white/50">03</p>
 
-                <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--accent)]">
+                <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]">
                   Media
                 </p>
 
-                <p className="mt-2 text-xs text-white/40">
+                <p className="mt-2 text-xs text-white/55">
                   Images &amp; video
                 </p>
               </div>
 
               <div className="border border-white/10 bg-white/[0.02] p-4">
-                <p className="font-mono text-[9px] text-white/25">04</p>
+                <p className="font-mono text-[10px] text-white/50">04</p>
 
-                <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--accent)]">
+                <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]">
                   Discovery
                 </p>
 
-                <p className="mt-2 text-xs text-white/40">
+                <p className="mt-2 text-xs text-white/55">
                   Scouting experience
                 </p>
               </div>
@@ -144,7 +144,7 @@ export default function FootballTalentProject() {
 
           {/* DATA LAYER */}
           <div className="mt-10 border-t border-white/10 pt-8">
-            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/25">
+            <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/50">
               Data layer
             </p>
 
@@ -152,7 +152,7 @@ export default function FootballTalentProject() {
               Structure player information for discovery.
             </h4>
 
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-white/45">
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-white/60">
               Player information is organized into structured profiles so the
               application can support discovery, profile views, scouting
               workflows, and richer player records instead of presenting
@@ -169,7 +169,7 @@ export default function FootballTalentProject() {
               ].map((item) => (
                 <span
                   key={item}
-                  className="border border-white/10 px-3 py-1.5 text-[10px] uppercase tracking-[0.14em] text-white/40"
+                  className="border border-white/10 px-3 py-1.5 text-[11px] uppercase tracking-[0.14em] text-white/55"
                 >
                   {item}
                 </span>
@@ -179,7 +179,7 @@ export default function FootballTalentProject() {
 
           {/* PLATFORM */}
           <div className="mt-10 border-t border-white/10 pt-8">
-            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/25">
+            <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/50">
               Platform
             </p>
 
@@ -187,7 +187,7 @@ export default function FootballTalentProject() {
               Application services
             </h4>
 
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-white/45">
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-white/60">
               Authentication, APIs, database services, and reusable
               application workflows provide the foundation connecting the
               interface to the underlying football data.
@@ -196,7 +196,7 @@ export default function FootballTalentProject() {
 
           {/* MEDIA */}
           <div className="mt-10 border-t border-white/10 pt-8">
-            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/25">
+            <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/50">
               Media
             </p>
 
@@ -204,48 +204,48 @@ export default function FootballTalentProject() {
               Richer player profiles
             </h4>
 
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-white/45">
-              Image and video workflows allow player profiles to carry richer
-              media content, making the scouting experience more useful than a
-              purely text-based record.
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-white/60">
+              Video uploads allow player profiles to carry highlight footage,
+              making the scouting experience more useful than a purely
+              text-based record.
             </p>
           </div>
 
           {/* APPLICATION WORKFLOW */}
           <div className="mt-10">
-            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/25">
+            <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/50">
               Application workflow
             </p>
 
             <div className="mt-5 grid gap-3 sm:grid-cols-3">
               <div className="border border-white/10 bg-white/[0.02] p-5">
-                <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-[var(--accent)]">
+                <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--accent)]">
                   Authentication
                 </p>
 
-                <p className="mt-3 text-xs leading-5 text-white/40">
+                <p className="mt-3 text-xs leading-5 text-white/55">
                   JWT-based authentication connects users to protected
                   application workflows and services.
                 </p>
               </div>
 
               <div className="border border-white/10 bg-white/[0.02] p-5">
-                <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-[var(--accent)]">
+                <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--accent)]">
                   API
                 </p>
 
-                <p className="mt-3 text-xs leading-5 text-white/40">
+                <p className="mt-3 text-xs leading-5 text-white/55">
                   REST-based service communication provides a structured layer
                   between the application interface and backend functionality.
                 </p>
               </div>
 
               <div className="border border-white/10 bg-white/[0.02] p-5">
-                <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-[var(--accent)]">
+                <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--accent)]">
                   Discovery
                 </p>
 
-                <p className="mt-3 text-xs leading-5 text-white/40">
+                <p className="mt-3 text-xs leading-5 text-white/55">
                   Player information is organized around discovery and
                   exploration rather than static presentation alone.
                 </p>
@@ -255,7 +255,7 @@ export default function FootballTalentProject() {
 
           {/* MEDIA PIPELINE */}
           <div className="mt-10 border-t border-white/10 pt-8">
-            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/25">
+            <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/50">
               Media pipeline
             </p>
 
@@ -263,38 +263,39 @@ export default function FootballTalentProject() {
               Supporting richer scouting profiles.
             </h4>
 
-            <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[11px] text-white/35">
+            <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[11px] text-white/50">
+              <span>SELECT</span>
+              <span className="text-white/50">→</span>
+              <span>PREVIEW</span>
+              <span className="text-white/50">→</span>
               <span>UPLOAD</span>
-              <span className="text-white/15">→</span>
-              <span>PROCESS</span>
-              <span className="text-white/15">→</span>
-              <span>STORE</span>
-              <span className="text-white/15">→</span>
+              <span className="text-white/50">→</span>
               <span>PLAYER PROFILE</span>
             </div>
 
-            <p className="mt-5 max-w-2xl text-sm leading-7 text-white/45">
-              Cloudinary and FFmpeg support the media side of the application,
-              allowing player images and video workflows to become part of the
-              broader scouting platform.
+            <p className="mt-5 max-w-2xl text-sm leading-7 text-white/60">
+              Videos are validated and previewed in the browser, uploaded
+              through a dedicated endpoint, and linked to the player record so
+              highlight footage becomes part of the scouting profile. Files are
+              currently stored on the server&apos;s own disk.
             </p>
           </div>
 
           {/* ENGINEERING NARRATIVE */}
           <div className="mt-10 border-t border-white/10 pt-8">
-            <p className="max-w-3xl text-sm leading-7 text-white/45">
+            <p className="max-w-3xl text-sm leading-7 text-white/60">
               The central engineering problem was not simply creating a
               football-themed interface. It was designing a connected
               application around player data: separating interface concerns
               from service logic, managing authentication, connecting database
-              operations, handling media, and creating workflows that make
+              operations, handling video uploads, and creating workflows that make
               player discovery more structured and reusable.
             </p>
           </div>
 
           {/* TECHNOLOGY STACK */}
           <div className="mt-8">
-            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/25">
+            <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/50">
               Engineering stack
             </p>
 
@@ -306,12 +307,12 @@ export default function FootballTalentProject() {
                 "MongoDB",
                 "JWT",
                 "REST APIs",
-                "Cloudinary",
-                "FFmpeg",
+                "Mongoose",
+                "Multer",
               ].map((tag) => (
                 <span
                   key={tag}
-                  className="border border-white/10 px-3 py-1.5 text-[10px] uppercase tracking-[0.14em] text-white/40"
+                  className="border border-white/10 px-3 py-1.5 text-[11px] uppercase tracking-[0.14em] text-white/55"
                 >
                   {tag}
                 </span>
@@ -337,10 +338,23 @@ export default function FootballTalentProject() {
                 className="transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5"
               />
             </a>
+            <a
+              href="https://github.com/dammykenny/football-talent-app"
+              target="_blank"
+              rel="noreferrer"
+              className="group/link inline-flex items-center gap-2 border border-white/10 px-4 py-2.5 text-xs text-white/60 transition hover:border-[var(--accent)]/40 hover:text-white"
+            >
+              View source
+
+              <ArrowUpRight
+                size={14}
+                className="transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5"
+              />
+            </a>
           </div>
 
           {/* PROJECT FOOTER */}
-          <div className="mt-8 font-mono text-[10px] uppercase tracking-[0.18em] text-white/20">
+          <div className="mt-8 font-mono text-[11px] uppercase tracking-[0.18em] text-white/50">
             SPORTS INTELLIGENCE / 03
           </div>
         </div>

@@ -122,17 +122,17 @@ export default function Engineering() {
 
             {/* ENGINEERING PRINCIPLE */}
             <div className="mt-10 border-l border-white/10 pl-5 sm:pl-6">
-              <p className="font-mono text-[9px] uppercase tracking-[0.2em] text-white/25">
+              <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/50">
                 Engineering principle
               </p>
 
-              <p className="mt-3 max-w-md text-sm leading-7 text-white/45">
+              <p className="mt-3 max-w-md text-sm leading-7 text-white/60">
                 Structure the problem. Build the system. Validate the result.
                 Automate what can be repeated.
               </p>
             </div>
 
-            <div className="mt-10 flex items-center gap-3 text-xs uppercase tracking-[0.22em] text-white/35">
+            <div className="mt-10 flex items-center gap-3 text-xs uppercase tracking-[0.22em] text-white/50">
               <span className="h-px w-10 bg-white/20" />
               Systems · Data · Automation
             </div>
@@ -150,20 +150,20 @@ export default function Engineering() {
                 >
                   {/* CARD HEADER */}
                   <div className="flex items-start justify-between">
-                    <span className="font-mono text-xs tracking-[0.2em] text-white/25">
+                    <span className="font-mono text-xs tracking-[0.2em] text-white/50">
                       {item.number}
                     </span>
 
                     <Icon
                       size={18}
                       strokeWidth={1.5}
-                      className="text-white/25 transition-colors duration-300 group-hover:text-[var(--accent)]"
+                      className="text-white/50 transition-colors duration-300 group-hover:text-[var(--accent)]"
                     />
                   </div>
 
                   <div className="mt-10">
                     {/* LAYER */}
-                    <p className="text-[10px] uppercase tracking-[0.24em] text-[var(--accent)]">
+                    <p className="text-[11px] uppercase tracking-[0.24em] text-[var(--accent)]">
                       {item.signal}
                     </p>
 
@@ -173,13 +173,13 @@ export default function Engineering() {
                     </h3>
 
                     {/* DESCRIPTION */}
-                    <p className="mt-4 text-sm leading-7 text-white/50">
+                    <p className="mt-4 text-sm leading-7 text-white/65">
                       {item.description}
                     </p>
 
                     {/* FOCUS */}
                     <div className="mt-7">
-                      <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-white/25">
+                      <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-white/50">
                         Focus
                       </p>
 
@@ -187,7 +187,7 @@ export default function Engineering() {
                         {item.focus.map((focusItem) => (
                           <div
                             key={focusItem}
-                            className="flex items-center gap-2 text-xs text-white/40"
+                            className="flex items-center gap-2 text-xs text-white/55"
                           >
                             <span className="h-px w-3 bg-white/20" />
                             <span>{focusItem}</span>
@@ -198,7 +198,7 @@ export default function Engineering() {
 
                     {/* TECHNOLOGY STACK */}
                     <div className="mt-7 border-t border-white/10 pt-5">
-                      <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-white/25">
+                      <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-white/50">
                         Stack
                       </p>
 
@@ -206,7 +206,7 @@ export default function Engineering() {
                         {item.stack.map((technology) => (
                           <span
                             key={technology}
-                            className="border border-white/15 bg-white/[0.025] px-2.5 py-1.5 text-[9px] uppercase tracking-[0.12em] text-white/50 transition-colors duration-300 group-hover:border-white/20 group-hover:text-white/60"
+                            className="border border-white/15 bg-white/[0.025] px-2.5 py-1.5 text-[10px] uppercase tracking-[0.12em] text-white/65 transition-colors duration-300 group-hover:border-white/20 group-hover:text-white/60"
                           >
                             {technology}
                           </span>

@@ -17,7 +17,7 @@ export default function Work() {
           Practical systems built around real problems.
         </h2>
 
-        <p className="max-w-md text-sm leading-6 text-white/40">
+        <p className="max-w-md text-sm leading-6 text-white/55">
           Software, data processing, and automation systems designed around
           real operational workflows rather than isolated demonstrations.
         </p>

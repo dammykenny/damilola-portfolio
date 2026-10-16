@@ -16,7 +16,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="space-y-6 text-sm leading-7 text-white/40">
+        <div className="space-y-6 text-sm leading-7 text-white/55">
           <p>
             I am a mathematically trained software engineer working across
             application development, data processing, automation, and
@@ -34,6 +34,42 @@ export default function About() {
             validation, maintainability, and building tools that solve actual
             operational problems.
           </p>
+
+          <div className="border-t border-white/10 pt-6">
+            <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[var(--accent)]">
+              Background
+            </p>
+            <ul className="mt-4 space-y-3">
+              {[
+                ["Junior Auditor", "Oshin Kehinde Gbade & Co. · 2025 – present"],
+                ["Programming Instructor", "NYSC · taught programming and web development to 40+ students"],
+                ["B.Sc. Mathematics", "University of Ilorin · 2018 – 2023"],
+              ].map(([role, detail]) => (
+                <li key={role} className="text-white/60">
+                  <span className="text-white/85">{role}</span>
+                  <span className="block text-sm text-white/50">{detail}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="border-t border-white/10 pt-6">
+            <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[var(--accent)]">
+              Currently
+            </p>
+            <ul className="mt-4 space-y-3">
+              {[
+                "Working as a Junior Auditor, automating recurring financial-data tasks",
+                "Building Metamorphosis, a document processing workspace",
+                "Developing Football Talent and My Sports",
+              ].map((item) => (
+                <li key={item} className="flex gap-3 text-white/60">
+                  <span className="mt-3 h-px w-5 shrink-0 bg-[var(--accent)]/50" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowDownRight, ArrowUpRight } from "lucide-react";
+import { ArrowDownRight, ArrowUpRight, Download } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -14,7 +14,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <div className="mb-8 flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.24em] text-[var(--accent)]">
+            <div className="mb-8 flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.24em] text-[var(--accent)]">
               <span className="h-px w-10 bg-[var(--accent)]" />
               Software Engineer · Data & Automation
             </div>
@@ -23,7 +23,7 @@ export default function Hero() {
               I build
               <br />
 
-              <span className="text-white/40">systems</span>{" "}
+              <span className="text-white/55">systems</span>{" "}
 
               <span className="text-[var(--accent)]">from</span>
 
@@ -33,13 +33,13 @@ export default function Hero() {
             </h1>
 
             <div className="mt-10 grid gap-8 sm:grid-cols-[1fr_auto] sm:items-end">
-              <p className="max-w-xl text-base leading-8 text-white/45 sm:text-lg">
+              <p className="max-w-xl text-base leading-8 text-white/60 sm:text-lg">
                 Mathematically trained software engineer working across
                 application development, data processing, automation, and
                 financial systems.
               </p>
 
-              <div className="hidden font-mono text-[9px] uppercase tracking-[0.2em] text-white/20 sm:block">
+              <div className="hidden font-mono text-[10px] uppercase tracking-[0.2em] text-white/50 sm:block">
                 Lagos, Nigeria
                 <br />
                 Open to remote
@@ -68,6 +68,20 @@ export default function Hero() {
                 <ArrowUpRight
                   size={16}
                   className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                />
+              </a>
+
+              <a
+                href="/Damilola-Ayoola-CV.pdf"
+                download
+                className="group inline-flex items-center gap-3 border border-white/10 px-6 py-3.5 text-sm text-white/55 transition duration-300 hover:border-white/25 hover:text-white"
+              >
+                Download CV
+
+                <Download
+                  size={16}
+                  aria-hidden="true"
+                  className="transition-transform duration-300 group-hover:translate-y-0.5"
                 />
               </a>
             </div>
@@ -139,7 +153,7 @@ export default function Hero() {
 
             <div className="absolute left-1/2 top-1/2 flex h-44 w-44 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-[var(--accent)]/20 bg-[#080b0a]/95 shadow-[0_0_100px_rgba(183,255,74,0.07)]">
               <div className="text-center">
-                <div className="font-mono text-[9px] uppercase tracking-[0.3em] text-white/25">
+                <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/50">
                   Engineering
                 </div>
 
@@ -147,34 +161,26 @@ export default function Hero() {
                   DATA
                 </div>
 
-                <div className="mt-1 font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--accent)]">
+                <div className="mt-1 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--accent)]">
                   → SYSTEMS
                 </div>
               </div>
             </div>
 
-            <div className="absolute left-[1%] top-[21%] font-mono text-[9px] uppercase tracking-[0.18em] text-white/20">
+            <div className="absolute left-[1%] top-[21%] font-mono text-[10px] uppercase tracking-[0.18em] text-white/50">
               01 / MODEL
             </div>
 
-            <div className="absolute right-[0%] top-[28%] font-mono text-[9px] uppercase tracking-[0.18em] text-white/20">
+            <div className="absolute right-[0%] top-[28%] font-mono text-[10px] uppercase tracking-[0.18em] text-white/50">
               02 / BUILD
             </div>
 
-            <div className="absolute bottom-[20%] left-[5%] font-mono text-[9px] uppercase tracking-[0.18em] text-white/20">
+            <div className="absolute bottom-[20%] left-[5%] font-mono text-[10px] uppercase tracking-[0.18em] text-white/50">
               03 / VALIDATE
             </div>
 
-            <div className="absolute bottom-[8%] right-[6%] font-mono text-[9px] uppercase tracking-[0.18em] text-white/20">
+            <div className="absolute bottom-[8%] right-[6%] font-mono text-[10px] uppercase tracking-[0.18em] text-white/50">
               04 / AUTOMATE
-            </div>
-
-            <div className="absolute left-0 top-0 font-mono text-[8px] uppercase tracking-[0.18em] text-white/15">
-              DA / 2026
-            </div>
-
-            <div className="absolute bottom-0 right-0 font-mono text-[8px] uppercase tracking-[0.18em] text-white/15">
-              SYSTEMS_01
             </div>
           </div>
         </motion.div>
@@ -185,7 +191,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.8 }}
-        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 items-center gap-3 font-mono text-[9px] uppercase tracking-[0.2em] text-white/20 transition hover:text-white/50 lg:flex"
+        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 items-center gap-3 font-mono text-[10px] uppercase tracking-[0.2em] text-white/50 transition hover:text-white/50 lg:flex"
       >
         Scroll to explore
         <span className="h-8 w-px bg-white/15" />

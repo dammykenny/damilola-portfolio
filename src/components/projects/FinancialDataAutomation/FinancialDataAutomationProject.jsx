@@ -61,11 +61,11 @@ export default function FinancialDataAutomationProject() {
       <div className="grid gap-10 lg:grid-cols-[0.25fr_0.75fr] lg:gap-12">
         {/* PROJECT NUMBER */}
         <div>
-          <p className="font-mono text-xs tracking-[0.2em] text-white/25">
+          <p className="font-mono text-xs tracking-[0.2em] text-white/50">
             02
           </p>
 
-          <p className="mt-3 text-[10px] uppercase tracking-[0.24em] text-[var(--accent)]">
+          <p className="mt-3 text-[11px] uppercase tracking-[0.24em] text-[var(--accent)]">
             Python · Financial Data · Audit Automation
           </p>
         </div>
@@ -78,7 +78,7 @@ export default function FinancialDataAutomationProject() {
                 Financial Data Automation
               </h3>
 
-              <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.2em] text-white/25">
+              <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.2em] text-white/50">
                 From raw statements to validated financial data.
               </p>
             </div>
@@ -86,19 +86,23 @@ export default function FinancialDataAutomationProject() {
             <BarChart3
               size={20}
               strokeWidth={1.5}
-              className="mt-1 shrink-0 text-white/25 transition-colors duration-300 group-hover:text-[var(--accent)]"
+              className="mt-1 shrink-0 text-white/50 transition-colors duration-300 group-hover:text-[var(--accent)]"
             />
           </div>
 
+          <p className="mt-6 inline-block border border-[var(--accent)]/20 bg-[var(--accent)]/[0.04] px-3 py-1.5 font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]">
+            Working scripts · being integrated into Metamorphosis
+          </p>
+
           {/* INTRODUCTION */}
-          <p className="mt-6 max-w-3xl text-sm leading-7 text-white/50 sm:text-[15px]">
+          <p className="mt-6 max-w-3xl text-sm leading-7 text-white/65 sm:text-[15px]">
             A collection of reusable Python workflows developed to automate
-            recurring financial-data and audit tasks. The system turns
+            recurring financial-data and audit tasks. These workflows turn
             semi-structured bank-statement documents into structured,
             validated, and reviewable financial datasets.
           </p>
 
-          <p className="mt-4 max-w-3xl text-sm leading-7 text-white/40">
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-white/55">
             Rather than treating each statement as a one-off document, the
             workflows establish a repeatable processing pipeline covering
             extraction, transaction analysis, classification, validation,
@@ -107,21 +111,21 @@ export default function FinancialDataAutomationProject() {
 
           {/* CORE PIPELINE */}
           <div className="mt-10 border-y border-white/[0.08] py-6">
-            <div className="mb-5 font-mono text-[9px] uppercase tracking-[0.24em] text-[var(--accent)]">
+            <div className="mb-5 font-mono text-[10px] uppercase tracking-[0.24em] text-[var(--accent)]">
               Core pipeline
             </div>
 
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 font-mono text-[10px] tracking-[0.14em] text-white/40 sm:text-[11px]">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 font-mono text-[11px] tracking-[0.14em] text-white/55 sm:text-[11px]">
               <span>PDF INPUT</span>
-              <span className="text-white/15">→</span>
+              <span className="text-white/50">→</span>
               <span>EXTRACTION</span>
-              <span className="text-white/15">→</span>
+              <span className="text-white/50">→</span>
               <span>STRUCTURE</span>
-              <span className="text-white/15">→</span>
+              <span className="text-white/50">→</span>
               <span>CLASSIFICATION</span>
-              <span className="text-white/15">→</span>
+              <span className="text-white/50">→</span>
               <span>VALIDATION</span>
-              <span className="text-white/15">→</span>
+              <span className="text-white/50">→</span>
               <span>EXCEL</span>
             </div>
           </div>
@@ -130,7 +134,7 @@ export default function FinancialDataAutomationProject() {
           <div className="mt-10">
             <div className="mb-6 flex items-center justify-between gap-4">
               <div>
-                <p className="font-mono text-[9px] uppercase tracking-[0.24em] text-white/20">
+                <p className="font-mono text-[10px] uppercase tracking-[0.24em] text-white/50">
                   Processing workflow
                 </p>
 
@@ -139,7 +143,7 @@ export default function FinancialDataAutomationProject() {
                 </h4>
               </div>
 
-              <span className="hidden font-mono text-[9px] uppercase tracking-[0.2em] text-white/20 sm:block">
+              <span className="hidden font-mono text-[10px] uppercase tracking-[0.2em] text-white/50 sm:block">
                 DATA FLOW / 02
               </span>
             </div>
@@ -151,7 +155,7 @@ export default function FinancialDataAutomationProject() {
                   className="bg-[#0a0a0a] p-5 transition-colors duration-300 hover:bg-white/[0.035]"
                 >
                   <div className="flex items-center justify-between">
-                    <span className="font-mono text-[10px] text-[var(--accent)]">
+                    <span className="font-mono text-[11px] text-[var(--accent)]">
                       {item.number}
                     </span>
 
@@ -162,7 +166,7 @@ export default function FinancialDataAutomationProject() {
                     {item.title}
                   </h5>
 
-                  <p className="mt-3 text-xs leading-6 text-white/35">
+                  <p className="mt-3 text-xs leading-6 text-white/50">
                     {item.description}
                   </p>
                 </div>
@@ -173,7 +177,7 @@ export default function FinancialDataAutomationProject() {
           {/* DATA STRUCTURE */}
           <div className="mt-10 grid gap-px overflow-hidden border border-white/10 bg-white/10 lg:grid-cols-[0.8fr_1.2fr]">
             <div className="bg-[#0a0a0a] p-7 sm:p-8">
-              <p className="font-mono text-[9px] uppercase tracking-[0.22em] text-[var(--accent)]">
+              <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-[var(--accent)]">
                 Structured records
               </p>
 
@@ -181,7 +185,7 @@ export default function FinancialDataAutomationProject() {
                 Transaction data
               </h4>
 
-              <p className="mt-4 text-sm leading-7 text-white/40">
+              <p className="mt-4 text-sm leading-7 text-white/55">
                 Extracted statement information is organized into consistent
                 transaction fields so downstream analysis can operate on
                 structured data rather than raw document text.
@@ -203,7 +207,7 @@ export default function FinancialDataAutomationProject() {
                 ].map((field) => (
                   <div
                     key={field}
-                    className="border border-white/[0.08] px-3 py-2.5 font-mono text-[10px] uppercase tracking-[0.12em] text-white/35"
+                    className="border border-white/[0.08] px-3 py-2.5 font-mono text-[11px] uppercase tracking-[0.12em] text-white/50"
                   >
                     {field}
                   </div>
@@ -215,7 +219,7 @@ export default function FinancialDataAutomationProject() {
           {/* ANALYSIS + VALIDATION */}
           <div className="mt-10 grid gap-px border border-white/10 bg-white/10 md:grid-cols-2">
             <div className="bg-[#0a0a0a] p-7 sm:p-8">
-              <p className="font-mono text-[9px] uppercase tracking-[0.22em] text-[var(--accent)]">
+              <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-[var(--accent)]">
                 Analysis layer
               </p>
 
@@ -233,7 +237,7 @@ export default function FinancialDataAutomationProject() {
                 ].map((item) => (
                   <li
                     key={item}
-                    className="flex items-center gap-3 text-xs text-white/40"
+                    className="flex items-center gap-3 text-xs text-white/55"
                   >
                     <span className="h-px w-4 bg-[var(--accent)]/50" />
                     {item}
@@ -243,7 +247,7 @@ export default function FinancialDataAutomationProject() {
             </div>
 
             <div className="bg-[#0a0a0a] p-7 sm:p-8">
-              <p className="font-mono text-[9px] uppercase tracking-[0.22em] text-[var(--accent)]">
+              <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-[var(--accent)]">
                 Validation layer
               </p>
 
@@ -261,7 +265,7 @@ export default function FinancialDataAutomationProject() {
                 ].map((item) => (
                   <li
                     key={item}
-                    className="flex items-center gap-3 text-xs text-white/40"
+                    className="flex items-center gap-3 text-xs text-white/55"
                   >
                     <span className="h-px w-4 bg-[var(--accent)]/50" />
                     {item}
@@ -275,7 +279,7 @@ export default function FinancialDataAutomationProject() {
           <div className="mt-10 border border-white/10 bg-[#0a0a0a] p-7 sm:p-8">
             <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
               <div>
-                <p className="font-mono text-[9px] uppercase tracking-[0.22em] text-[var(--accent)]">
+                <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-[var(--accent)]">
                   Output layer
                 </p>
 
@@ -283,14 +287,14 @@ export default function FinancialDataAutomationProject() {
                   Analysis-ready Excel workbooks.
                 </h4>
 
-                <p className="mt-4 max-w-2xl text-sm leading-7 text-white/40">
+                <p className="mt-4 max-w-2xl text-sm leading-7 text-white/55">
                   The processed information is delivered in structured
                   workbooks designed for review, analysis, reconciliation, and
                   reporting.
                 </p>
               </div>
 
-              <div className="font-mono text-[9px] uppercase tracking-[0.18em] text-white/20">
+              <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-white/50">
                 PYTHON → DATA → EXCEL
               </div>
             </div>
@@ -299,7 +303,7 @@ export default function FinancialDataAutomationProject() {
               {outputs.map((output) => (
                 <span
                   key={output}
-                  className="border border-white/10 px-3 py-2 text-[10px] uppercase tracking-[0.12em] text-white/40"
+                  className="border border-white/10 px-3 py-2 text-[11px] uppercase tracking-[0.12em] text-white/55"
                 >
                   {output}
                 </span>
@@ -309,7 +313,7 @@ export default function FinancialDataAutomationProject() {
 
           {/* TECHNOLOGY */}
           <div className="mt-10">
-            <div className="mb-5 font-mono text-[9px] uppercase tracking-[0.22em] text-white/20">
+            <div className="mb-5 font-mono text-[10px] uppercase tracking-[0.22em] text-white/50">
               Engineering stack
             </div>
 
@@ -317,7 +321,7 @@ export default function FinancialDataAutomationProject() {
               {technologies.map((technology) => (
                 <span
                   key={technology}
-                  className="border border-white/10 px-3 py-1.5 text-[10px] uppercase tracking-[0.14em] text-white/40"
+                  className="border border-white/10 px-3 py-1.5 text-[11px] uppercase tracking-[0.14em] text-white/55"
                 >
                   {technology}
                 </span>
@@ -327,7 +331,7 @@ export default function FinancialDataAutomationProject() {
 
           {/* ENGINEERING TAKEAWAY */}
           <div className="mt-10 border-t border-white/[0.08] pt-7">
-            <p className="max-w-3xl text-sm leading-7 text-white/45">
+            <p className="max-w-3xl text-sm leading-7 text-white/60">
               The central engineering problem was not simply extracting
               transactions from PDFs. It was creating a dependable process
               around imperfect financial documents: preserving statement
@@ -340,11 +344,11 @@ export default function FinancialDataAutomationProject() {
           {/* TECHNOLOGY MARKER */}
           <div className="mt-8 flex flex-wrap items-center justify-between gap-4">
             <a href="/work/financial-data-automation" className="group/link inline-flex items-center gap-2 border border-white/10 px-4 py-2.5 text-xs text-white/60 transition hover:border-[var(--accent)]/40 hover:text-white">View case study <ArrowUpRight size={14} className="transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" /></a>
-            <div className="font-mono text-[9px] uppercase tracking-[0.2em] text-white/20">
+            <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/50">
               FINANCIAL DATA AUTOMATION / 02
             </div>
 
-            <div className="font-mono text-[9px] uppercase tracking-[0.2em] text-[var(--accent)]/60">
+            <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--accent)]/60">
               EXTRACT / ANALYZE / VALIDATE / REPORT
             </div>
           </div>

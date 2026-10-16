@@ -12,16 +12,16 @@ export default function ProjectScreenshots({
     <div className="mt-12 border-t border-white/[0.07] pt-8">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/25">
+          <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/50">
             {title}
           </p>
-          <p className="mt-2 text-sm text-white/45">
+          <p className="mt-2 text-sm text-white/60">
             Real interface captures from the project build.
           </p>
         </div>
 
         {status ? (
-          <span className="border border-[var(--accent)]/20 bg-[var(--accent)]/[0.04] px-3 py-1.5 font-mono text-[9px] uppercase tracking-[0.16em] text-[var(--accent)]">
+          <span className="border border-[var(--accent)]/20 bg-[var(--accent)]/[0.04] px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--accent)]">
             {status}
           </span>
         ) : null}
@@ -47,13 +47,13 @@ export default function ProjectScreenshots({
               />
             </div>
             <div className="flex items-center justify-between gap-3 border-t border-white/[0.07] px-4 py-3">
-              <span className="font-mono text-[9px] uppercase tracking-[0.14em] text-white/35">
+              <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-white/50">
                 {shot.label}
               </span>
               <ArrowUpRight
                 size={13}
                 aria-hidden="true"
-                className="text-white/20 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[var(--accent)]"
+                className="text-white/50 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[var(--accent)]"
               />
             </div>
           </a>

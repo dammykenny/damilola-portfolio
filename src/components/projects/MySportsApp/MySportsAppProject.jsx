@@ -9,11 +9,11 @@ export default function MySportsAppProject() {
       <div className="grid gap-8 lg:grid-cols-[0.25fr_0.75fr] lg:gap-12">
         {/* PROJECT NUMBER */}
         <div>
-          <p className="font-mono text-xs tracking-[0.2em] text-white/25">
+          <p className="font-mono text-xs tracking-[0.2em] text-white/50">
             04
           </p>
 
-          <p className="mt-3 text-[10px] uppercase tracking-[0.24em] text-[var(--accent)]">
+          <p className="mt-3 text-[11px] uppercase tracking-[0.24em] text-[var(--accent)]">
             React · Sports Data · API Integration
           </p>
         </div>
@@ -26,7 +26,7 @@ export default function MySportsAppProject() {
                 My Sports App
               </h3>
 
-              <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-white/25">
+              <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.18em] text-white/50">
                 Player discovery · Profiles · Sports data
               </p>
             </div>
@@ -34,12 +34,12 @@ export default function MySportsAppProject() {
             <Search
               size={19}
               strokeWidth={1.5}
-              className="mt-1 shrink-0 text-white/25 transition-colors duration-300 group-hover:text-[var(--accent)]"
+              className="mt-1 shrink-0 text-white/50 transition-colors duration-300 group-hover:text-[var(--accent)]"
             />
           </div>
 
           {/* INTRODUCTION */}
-          <p className="mt-5 max-w-2xl text-sm leading-7 text-white/50">
+          <p className="mt-5 max-w-2xl text-sm leading-7 text-white/65">
             A React-based sports information application built around the
             discovery and exploration of professional athletes. The
             application integrates external sports data through TheSportsDB
@@ -48,22 +48,22 @@ export default function MySportsAppProject() {
           </p>
 
           {/* CORE PIPELINE */}
-          <div className="mt-7 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[11px] text-white/35">
+          <div className="mt-7 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[11px] text-white/50">
             <span>SEARCH</span>
 
-            <span className="text-white/15">→</span>
+            <span className="text-white/50">→</span>
 
             <span>API</span>
 
-            <span className="text-white/15">→</span>
+            <span className="text-white/50">→</span>
 
             <span>PLAYER DATA</span>
 
-            <span className="text-white/15">→</span>
+            <span className="text-white/50">→</span>
 
             <span>PROFILE</span>
 
-            <span className="text-white/15">→</span>
+            <span className="text-white/50">→</span>
 
             <span>DISCOVERY</span>
           </div>
@@ -71,33 +71,33 @@ export default function MySportsAppProject() {
           {/* DISCOVERY / PROFILES / INTEGRATION */}
           <div className="mt-8 grid gap-3 sm:grid-cols-3">
             <div className="border border-white/10 bg-white/[0.02] p-4">
-              <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-[var(--accent)]">
+              <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--accent)]">
                 Discovery
               </p>
 
-              <p className="mt-2 text-xs leading-5 text-white/40">
+              <p className="mt-2 text-xs leading-5 text-white/55">
                 Search and explore athletes using structured sports data
                 retrieved through an external REST API.
               </p>
             </div>
 
             <div className="border border-white/10 bg-white/[0.02] p-4">
-              <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-[var(--accent)]">
+              <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--accent)]">
                 Profiles
               </p>
 
-              <p className="mt-2 text-xs leading-5 text-white/40">
+              <p className="mt-2 text-xs leading-5 text-white/55">
                 Present detailed player information including teams, career
                 history, milestones, honours, and sporting activity.
               </p>
             </div>
 
             <div className="border border-white/10 bg-white/[0.02] p-4">
-              <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-[var(--accent)]">
+              <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--accent)]">
                 Integration
               </p>
 
-              <p className="mt-2 text-xs leading-5 text-white/40">
+              <p className="mt-2 text-xs leading-5 text-white/55">
                 Connect a React interface to a third-party sports-data service
                 and transform API responses into usable application data.
               </p>
@@ -106,7 +106,7 @@ export default function MySportsAppProject() {
 
           {/* DATA MODEL */}
           <div className="mt-10">
-            <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-white/25">
+            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-white/50">
               Data model
             </p>
 
@@ -114,7 +114,7 @@ export default function MySportsAppProject() {
               From external API to usable player intelligence.
             </h4>
 
-            <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--accent)]">
+            <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.18em] text-[var(--accent)]">
               SPORTS DATA / 04
             </p>
           </div>
@@ -122,36 +122,36 @@ export default function MySportsAppProject() {
           {/* DATA FLOW */}
           <div className="mt-7 grid gap-px border border-white/10 bg-white/10 sm:grid-cols-5">
             <div className="bg-black p-4">
-              <p className="font-mono text-[10px] text-white/25">01</p>
-              <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.15em] text-white/50">
+              <p className="font-mono text-[11px] text-white/50">01</p>
+              <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.15em] text-white/65">
                 Search
               </p>
             </div>
 
             <div className="bg-black p-4">
-              <p className="font-mono text-[10px] text-white/25">02</p>
-              <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.15em] text-white/50">
+              <p className="font-mono text-[11px] text-white/50">02</p>
+              <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.15em] text-white/65">
                 Fetch
               </p>
             </div>
 
             <div className="bg-black p-4">
-              <p className="font-mono text-[10px] text-white/25">03</p>
-              <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.15em] text-white/50">
+              <p className="font-mono text-[11px] text-white/50">03</p>
+              <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.15em] text-white/65">
                 Normalize
               </p>
             </div>
 
             <div className="bg-black p-4">
-              <p className="font-mono text-[10px] text-white/25">04</p>
-              <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.15em] text-white/50">
+              <p className="font-mono text-[11px] text-white/50">04</p>
+              <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.15em] text-white/65">
                 Display
               </p>
             </div>
 
             <div className="bg-black p-4">
-              <p className="font-mono text-[10px] text-white/25">05</p>
-              <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.15em] text-white/50">
+              <p className="font-mono text-[11px] text-white/50">05</p>
+              <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.15em] text-white/65">
                 Explore
               </p>
             </div>
@@ -159,7 +159,7 @@ export default function MySportsAppProject() {
 
           {/* PLAYER INTELLIGENCE */}
           <div className="mt-8">
-            <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-[var(--accent)]">
+            <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--accent)]">
               Player intelligence
             </p>
 
@@ -167,7 +167,7 @@ export default function MySportsAppProject() {
               Career information
             </h4>
 
-            <p className="mt-3 max-w-2xl text-sm leading-7 text-white/45">
+            <p className="mt-3 max-w-2xl text-sm leading-7 text-white/60">
               Player profiles bring together teams, career history, sporting
               activity, and other available information from the underlying
               sports-data service.
@@ -183,7 +183,7 @@ export default function MySportsAppProject() {
               ].map((item) => (
                 <span
                   key={item}
-                  className="border border-white/10 px-3 py-1.5 text-[10px] uppercase tracking-[0.14em] text-white/40"
+                  className="border border-white/10 px-3 py-1.5 text-[11px] uppercase tracking-[0.14em] text-white/55"
                 >
                   {item}
                 </span>
@@ -193,11 +193,11 @@ export default function MySportsAppProject() {
 
           {/* DISCOVERY */}
           <div className="mt-8">
-            <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-[var(--accent)]">
+            <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--accent)]">
               Richer discovery
             </p>
 
-            <p className="mt-3 max-w-2xl text-sm leading-7 text-white/45">
+            <p className="mt-3 max-w-2xl text-sm leading-7 text-white/60">
               The application turns raw API data into a navigable experience
               where users can move from searching for a player to exploring a
               broader profile.
@@ -206,11 +206,11 @@ export default function MySportsAppProject() {
 
           {/* ENGINEERING PROBLEM */}
           <div className="mt-10 border-l border-white/10 pl-5 sm:pl-6">
-            <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-white/25">
+            <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-white/50">
               Engineering problem
             </p>
 
-            <p className="mt-3 max-w-2xl text-sm leading-7 text-white/50">
+            <p className="mt-3 max-w-2xl text-sm leading-7 text-white/65">
               The central engineering problem was not simply displaying sports
               information. It was connecting an external data source to a
               responsive application experience, handling API-driven data,
@@ -223,7 +223,7 @@ export default function MySportsAppProject() {
 
           {/* TECHNOLOGY STACK */}
           <div className="mt-8">
-        <p className="font-mono text-[9px] uppercase tracking-[0.18em] text-[var(--accent)]">
+        <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--accent)]">
             Engineering stack
         </p>
 
@@ -238,7 +238,7 @@ export default function MySportsAppProject() {
             ].map((tag) => (
             <span
                 key={tag}
-                className="border border-white/15 bg-white/[0.025] px-3 py-1.5 text-[10px] uppercase tracking-[0.14em] text-white/55 transition-colors duration-300 hover:border-[var(--accent)]/40 hover:bg-white/[0.04] hover:text-white"
+                className="border border-white/15 bg-white/[0.025] px-3 py-1.5 text-[11px] uppercase tracking-[0.14em] text-white/55 transition-colors duration-300 hover:border-[var(--accent)]/40 hover:bg-white/[0.04] hover:text-white"
             >
                 {tag}
             </span>
@@ -260,6 +260,19 @@ export default function MySportsAppProject() {
               className="group/link inline-flex items-center gap-2 border border-white/10 px-4 py-2.5 text-xs text-white/60 transition hover:border-[var(--accent)]/40 hover:text-white"
             >
               View application
+
+              <ArrowUpRight
+                size={14}
+                className="transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5"
+              />
+            </a>
+            <a
+              href="https://github.com/dammykenny/my-sports-app"
+              target="_blank"
+              rel="noreferrer"
+              className="group/link inline-flex items-center gap-2 border border-white/10 px-4 py-2.5 text-xs text-white/60 transition hover:border-[var(--accent)]/40 hover:text-white"
+            >
+              View source
 
               <ArrowUpRight
                 size={14}

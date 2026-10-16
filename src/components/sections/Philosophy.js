@@ -47,7 +47,7 @@ export default function Philosophy() {
             <div className="flex items-center gap-3">
               <span className="h-px w-8 bg-[var(--accent)]/60" />
 
-              <p className="font-mono text-[9px] uppercase tracking-[0.28em] text-[var(--accent)]">
+              <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-[var(--accent)]">
                 The foundation
               </p>
             </div>
@@ -58,7 +58,7 @@ export default function Philosophy() {
           </div>
 
           <div className="lg:pb-1">
-            <p className="max-w-xl text-sm leading-7 text-white/40">
+            <p className="max-w-xl text-sm leading-7 text-white/55">
               Mathematics provides the reasoning. Engineering turns that
               reasoning into systems. Data provides the evidence needed to
               understand, validate, and improve them.
@@ -90,11 +90,11 @@ export default function Philosophy() {
                 <div className="relative overflow-hidden border border-white/[0.09] bg-[#060807] p-6 transition-all duration-500 hover:-translate-y-1 hover:border-[var(--accent)]/30 sm:p-7">
                   {/* TOP SYSTEM ROW */}
                   <div className="flex items-center justify-between">
-                    <span className="font-mono text-[10px] tracking-[0.2em] text-[var(--accent)]">
+                    <span className="font-mono text-[11px] tracking-[0.2em] text-[var(--accent)]">
                       {item.number}
                     </span>
 
-                    <span className="font-mono text-[8px] uppercase tracking-[0.2em] text-white/25">
+                    <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/50">
                       {item.mode}
                     </span>
                   </div>
@@ -113,7 +113,7 @@ export default function Philosophy() {
                       {item.title}
                     </h3>
 
-                    <p className="mt-2 max-w-xs text-xs leading-6 text-white/35">
+                    <p className="mt-2 max-w-xs text-xs leading-6 text-white/50">
                       {item.description}
                     </p>
                   </div>
@@ -123,7 +123,7 @@ export default function Philosophy() {
                     {item.signals.map((signal, signalIndex) => (
                       <div
                         key={signal}
-                        className="flex items-center gap-3 font-mono text-[9px] uppercase tracking-[0.16em] text-white/25"
+                        className="flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.16em] text-white/50"
                       >
                         <span className="h-px w-3 bg-white/15 transition-all duration-300 group-hover:w-5 group-hover:bg-[var(--accent)]/50" />
 
@@ -155,22 +155,22 @@ export default function Philosophy() {
 
         {/* SYSTEM STATEMENT */}
         <div className="mt-10 grid gap-4 border-t border-white/[0.06] pt-6 sm:grid-cols-[1fr_auto] sm:items-center">
-          <div className="flex items-center gap-3 font-mono text-[9px] uppercase tracking-[0.2em] text-white/20">
+          <div className="flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.2em] text-white/50">
             <span className="text-[var(--accent)]/60">01</span>
             <span>Thinking</span>
 
-            <span className="text-white/10">→</span>
+            <span className="text-white/50">→</span>
 
             <span className="text-[var(--accent)]/60">02</span>
             <span>Building</span>
 
-            <span className="text-white/10">→</span>
+            <span className="text-white/50">→</span>
 
             <span className="text-[var(--accent)]/60">03</span>
             <span>Understanding</span>
           </div>
 
-          <div className="font-mono text-[9px] uppercase tracking-[0.2em] text-[var(--accent)]/50 sm:text-right">
+          <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--accent)]/50 sm:text-right">
             MATHEMATICS / ENGINEERING / DATA
           </div>
         </div>
