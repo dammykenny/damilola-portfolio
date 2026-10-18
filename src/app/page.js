@@ -1,6 +1,5 @@
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/sections/Hero";
-import Philosophy from "@/components/sections/Philosophy";
 import Work from "@/components/sections/Work";
 import Engineering from "@/components/sections/Engineering";
 import About from "@/components/sections/About";
@@ -11,7 +10,6 @@ export default function Home() {
     <main id="top" className="min-h-screen overflow-hidden">
       <Navbar />
       <Hero />
-      <Philosophy />
       <Work />
       <Engineering />
       <About />

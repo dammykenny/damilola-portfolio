@@ -34,9 +34,11 @@ export default function Hero() {
 
             <div className="mt-10 grid gap-8 sm:grid-cols-[1fr_auto] sm:items-end">
               <p className="max-w-xl text-base leading-8 text-white/60 sm:text-lg">
-                Mathematically trained software engineer working across
-                application development, data processing, automation, and
-                financial systems.
+                I build software and automation tools that turn complex,
+                repetitive processes into simpler, more efficient workflows.
+                With a background in mathematics and practical experience in
+                auditing, I’m particularly interested in the intersection of
+                software engineering, data, and finance.
               </p>
 
               <div className="hidden font-mono text-[10px] uppercase tracking-[0.2em] text-white/50 sm:block">
