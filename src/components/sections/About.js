@@ -10,7 +10,7 @@ export default function About() {
         <figure className="mx-auto w-full max-w-sm lg:mx-0">
           <div className="relative aspect-[4/5] overflow-hidden border border-white/10 bg-[#0b0f0e]">
             <Image
-              src="/damilola.jpg"
+              src="/damilola-portrait.jpg"
               alt="Portrait of Damilola Ayoola"
               fill
               sizes="(min-width: 1024px) 30vw, 90vw"
